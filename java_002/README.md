@@ -56,13 +56,13 @@
 > dog.java
 
 - 추상화 // 동물 병원에 접수하는 강아지
-이름	: 타입	: 설명
-name	: String	:강아지 이름
-age	: int	: 강아지 나이
-gender	: char	: 강아지 성별 (‘M’/’F’)
-breed	: String	: 품종
-weight	: double	: 몸무게
-sick	: String	: 증상 상세
+    - 이름	: 타입	: 설명
+    - name	: String	:강아지 이름
+    - age	: int	: 강아지 나이
+    - gender	: char	: 강아지 성별 (‘M’/’F’)
+    - breed	: String	: 품종
+    - weight	: double	: 몸무게
+    - sick	: String	: 증상 상세
 
 ---
 
