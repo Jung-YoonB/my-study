@@ -85,17 +85,17 @@
     - 일반 클래스에 인터페이스를 구현할 때는 implements 로 연결하여 사용
     - 다중 상속이 가능함!
   ```java
-[접근제한자] interface 인터페이스명{
-	// 자동 상수 필드 (final 이 자동으로 붙음)
-	int NUM = 0;
-	// 자동 추상화 메소드 (abstract 이 자동으로 붙음)
-	void 메소드명();
-}
+  [접근제한자] interface 인터페이스명{
+  	// 자동 상수 필드 (final 이 자동으로 붙음)
+  	int NUM = 0;
+  	// 자동 추상화 메소드 (abstract 이 자동으로 붙음)
+  	void 메소드명();
+  }
 
-// 사용할 클래스에 implements로 연결!
-[접근제한자] class 클래스명 implements 인터페이스명{
-}
-// 다중 상속 가능
-[접근제한자] class 클래스명 extends 클래스명 implements 인터페이스명{
-}
+  // 사용할 클래스에 implements로 연결!
+  [접근제한자] class 클래스명 implements 인터페이스명{
+  }
+  // 다중 상속 가능
+  [접근제한자] class 클래스명 extends 클래스명 implements 인터페이스명{
+  }
 ```
